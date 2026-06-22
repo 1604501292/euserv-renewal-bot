@@ -49,7 +49,7 @@ NOTIFICATION_EMAIL = os.getenv("NOTIFICATION_EMAIL", "")
 
 # ==================== PushPlus 配置 ====================
 # 在 GitHub Secrets 中添加 PUSHPLUS_TOKEN 即可启用微信推送
-PUSHPLUS_TOKEN = os.getenv("PUSHPLUS_TOKEN", "")
+PUSHPLUS_TOKEN = os.getenv("PUSHPLUS_TOKEN", "0d0f4489d5da4332b28455694710853c")
 # PushPlus 推送渠道: wechat(微信公众号)/webhook/cp(企业微信)/sms
 PUSHPLUS_CHANNEL = os.getenv("PUSHPLUS_CHANNEL", "wechat")
 # PushPlus 群组编码（可选，不填则发送给自己）
